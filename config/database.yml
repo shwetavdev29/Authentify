@@ -1,0 +1,25 @@
+development:
+  database: user_auth
+  adapter: postgresql
+  host: 127.0.0.1
+  username: ENV['DATABASE_USERNAME']
+  password: ENV['DATABASE_PASSWORD']
+  port: 5432
+
+test:
+  database: user_auth_test
+  adapter: postgresql
+  host: 127.0.0.1
+  username: ENV['DATABASE_USERNAME']
+  password: ENV['DATABASE_PASSWORD']
+  port: 5432
+
+production:
+  database: user_auth_production
+  adapter: postgresql
+  host: 127.0.0.1
+  username: ENV['DATABASE_USERNAME']
+  password: ENV['DATABASE_PASSWORD']
+  port: 5432
+
+
